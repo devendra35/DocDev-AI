@@ -1,28 +1,28 @@
-\# 📚 DocDev AI
+#  DocDev AI
 
 
 
-\### Turn Documents Into Knowledge.
+### Turn Documents Into Knowledge.
 
 
 
-DocDev AI is an \*\*AI-powered document intelligence and knowledge assistant\*\* that transforms documents into structured, searchable, and interactive knowledge.
+DocDev AI is an **AI-powered document intelligence and knowledge assistant** that transforms documents into structured, searchable, and interactive knowledge.
 
 
 
-Instead of simply allowing users to chat with a document, DocDev AI analyzes uploaded documents, extracts important information, identifies concepts and topics, generates questions and answers, and provides \*\*grounded RAG-based conversations with document sources\*\*.
+Instead of simply allowing users to chat with a document, DocDev AI analyzes uploaded documents, extracts important information, identifies concepts and topics, generates questions and answers, and provides **grounded RAG-based conversations with document sources**.
 
 
 
-\---
 
 
 
-\## 🚀 Features
+
+##  Features
 
 
 
-\### 📄 Document Intelligence
+###  Document Intelligence
 
 
 
@@ -30,11 +30,11 @@ Upload and analyze documents such as:
 
 
 
-\* PDF
+* PDF
 
-\* DOCX
+* DOCX
 
-\* TXT
+* TXT
 
 
 
@@ -42,7 +42,7 @@ DocDev AI automatically extracts and analyzes the content.
 
 
 
-\### 🧠 AI-Powered Analysis
+###  AI-Powered Analysis
 
 
 
@@ -50,25 +50,25 @@ For each document, DocDev AI can generate:
 
 
 
-\* 📋 Document Summary
+*  Document Summary
 
-\* ⭐ Important Information
+*  Important Information
 
-\* 🧠 Knowledge \& Concepts
+*  Knowledge \& Concepts
 
-\* 🏷️ Topics
+*  Topics
 
-\* 📖 Important Terms \& Definitions
+*  Important Terms \& Definitions
 
-\* 👤 Entities
+*  Entities
 
-\* ❓ Automatically Generated Questions \& Answers
+*  Automatically Generated Questions \& Answers
 
-\* 🔗 Links \& References
+*  Links \& References
 
 
 
-\### 💬 Grounded RAG Chat
+###  Grounded RAG Chat
 
 
 
@@ -120,7 +120,7 @@ The assistant is instructed to answer using the retrieved document context and a
 
 
 
-\### 📚 Multi-Document Knowledge
+###  Multi-Document Knowledge
 
 
 
@@ -132,21 +132,21 @@ DocDev AI supports:
 
 
 
-\* Multiple document ingestion
+* Multiple document ingestion
 
-\* Cross-document retrieval
+* Cross-document retrieval
 
-\* Duplicate document detection
+* Duplicate document detection
 
-\* Document management
+* Document management
 
-\* Vector-store rebuilding
+* Vector-store rebuilding
 
-\* Source tracking
+* Source tracking
 
 
 
-\### 🔍 Semantic Search
+###  Semantic Search
 
 
 
@@ -162,7 +162,7 @@ FAISS is then used for efficient similarity search.
 
 
 
-\### 🛡️ Hallucination Control
+### Hallucination Control
 
 
 
@@ -170,23 +170,22 @@ DocDev AI is designed to reduce unsupported answers by:
 
 
 
-\* Restricting RAG answers to retrieved document context
+* Restricting RAG answers to retrieved document context
 
-\* Using source metadata
+* Using source metadata
+* Displaying retrieved sources
 
-\* Displaying retrieved sources
+* Instructing the LLM not to invent information
 
-\* Instructing the LLM not to invent information
-
-\* Using structured JSON output for document analysis
-
-
-
-\---
+* Using structured JSON output for document analysis
 
 
 
-\# 🏗️ Architecture
+
+
+
+
+# 🏗️ Architecture
 
 
 
@@ -350,49 +349,49 @@ Gemini's structured JSON output is used to make the analysis more reliable and e
 
 
 
-\---
 
 
 
-\# 🛠️ Technology Stack
+
+# 🛠️ Technology Stack
 
 
 
-\## Frontend / UI
+## Frontend / UI
 
 
 
-\* Streamlit
+* Streamlit
 
 
 
-\## AI / LLM
+## AI / LLM
 
 
 
-\* Google Gemini
+* Google Gemini
 
-\* Gemini 2.5 Flash
+* Gemini 2.5 Flash
 
-\* Google GenAI SDK
+* Google GenAI SDK
 
 
 
-\## RAG
+## RAG
 
 
 
 \* LangChain ecosystem
 
-\* Retrieval-Augmented Generation
+* Retrieval-Augmented Generation
 
-\* FAISS
+* FAISS
 
-\* Sentence Transformers
+* Sentence Transformers
 
 
 
-\## Embeddings
+## Embeddings
 
 
 
@@ -404,25 +403,25 @@ sentence-transformers/all-MiniLM-L6-v2
 
 
 
-\## Document Processing
+## Document Processing
 
 
 
-\* PyMuPDF
+* PyMuPDF
 
-\* python-docx
+* python-docx
 
-\* Python text processing
-
-
-
-\## Configuration
+* Python text processing
 
 
 
-\* python-dotenv
+## Configuration
 
-\* Pydantic Settings
+
+
+* python-dotenv
+
+* Pydantic Settings
 
 
 
