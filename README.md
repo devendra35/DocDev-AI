@@ -291,7 +291,7 @@ DocDev AI is designed to reduce unsupported answers by:
 
 
 
-\# 🧠 Document Analysis Pipeline
+# 🧠 Document Analysis Pipeline
 
 
 
@@ -437,7 +437,7 @@ sentence-transformers/all-MiniLM-L6-v2
 
 
 
-\# 📁 Project Structure
+# 📁 Project Structure
 
 
 
@@ -553,15 +553,15 @@ DocDev-AI/
 
 
 
-\---
 
 
 
-\# ⚙️ Installation
+
+# ⚙️ Installation
 
 
 
-\## 1. Clone the Repository
+## 1. Clone the Repository
 
 
 
@@ -575,11 +575,11 @@ cd DocDev-AI
 
 
 
-\## 2. Create a Virtual Environment
+## 2. Create a Virtual Environment
 
 
 
-\### Windows
+### Windows
 
 
 
@@ -603,7 +603,7 @@ Activate it:
 
 
 
-\### Linux / macOS
+### Linux / macOS
 
 
 
@@ -621,7 +621,7 @@ source .venv/bin/activate
 
 
 
-\# 📦 Install Dependencies
+# 📦 Install Dependencies
 
 
 
@@ -657,7 +657,7 @@ pip install -U google-genai
 
 
 
-\# 🔑 Environment Variables
+# Environment Variables
 
 
 
@@ -689,7 +689,7 @@ MAX\_FILE\_SIZE\_MB=50
 
 
 
-\### Important
+### Important
 
 
 
@@ -701,11 +701,11 @@ The project already includes `.env` in `.gitignore`.
 
 
 
-\---
 
 
 
-\# ▶️ Run the Application
+
+#  Run the Application
 
 
 
@@ -741,11 +741,11 @@ http://localhost:8501
 
 
 
-\# 📖 How to Use
+# How to Use
 
 
 
-\### 1. Upload a Document
+### 1. Upload a Document
 
 
 
@@ -765,7 +765,7 @@ TXT
 
 
 
-\### 2. Process the Document
+### 2. Process the Document
 
 
 
@@ -785,25 +785,25 @@ DocDev AI will:
 
 
 
-1\. Validate the document
+1. Validate the document
 
-2\. Extract text
+2. Extract text
 
-3\. Clean the text
+3. Clean the text
 
-4\. Split it into chunks
+4. Split it into chunks
 
-5\. Generate embeddings
+5. Generate embeddings
 
-6\. Store embeddings in FAISS
+6. Store embeddings in FAISS
 
-7\. Register the document
+7. Register the document
 
-8\. Make it available for retrieval
+8. Make it available for retrieval
 
 
 
-\### 3. Select a Document
+### 3. Select a Document
 
 
 
@@ -811,7 +811,7 @@ Choose a document from the \*\*Document Library\*\*.
 
 
 
-\### 4. Explore Document Intelligence
+### 4. Explore Document Intelligence
 
 
 
@@ -845,7 +845,7 @@ Chat
 
 
 
-\### 5. Ask Questions
+### 5. Ask Questions
 
 
 
@@ -909,7 +909,7 @@ The system retrieves relevant document chunks before generating an answer.
 
 
 
-\# 🔎 RAG Configuration
+#  RAG Configuration
 
 
 
@@ -941,7 +941,7 @@ Default configuration:
 
 
 
-\# 🧪 Testing
+#  Testing
 
 
 
@@ -965,19 +965,19 @@ Tests cover areas including:
 
 
 
-\* Document loading
+* Document loading
 
-\* Text chunking
+* Text chunking
 
-\* Embeddings
+* Embeddings
 
-\* Retrieval
+* Retrieval
 
-\* RAG pipeline
+* RAG pipeline
 
-\* Document overview
+* Document overview
 
-\* Complete document analysis
+* Complete document analysis
 
 
 
@@ -985,7 +985,7 @@ Tests cover areas including:
 
 
 
-\# 🛡️ Security
+#  Security
 
 
 
@@ -993,19 +993,19 @@ DocDev AI follows several basic security practices:
 
 
 
-\* API keys stored in `.env`
+* API keys stored in `.env`
 
-\* `.env` excluded from Git
+* `.env` excluded from Git
 
-\* Uploaded files excluded from Git
+* Uploaded files excluded from Git
 
-\* Vector-store files excluded from Git
+* Vector-store files excluded from Git
 
-\* File type validation
+* File type validation
 
-\* File size validation
+* File size validation
 
-\* Duplicate document detection
+* Duplicate document detection
 
 
 
@@ -1017,99 +1017,19 @@ Never expose your Gemini API key publicly.
 
 
 
-\# 🔮 Future Improvements
 
 
 
-Planned improvements include:
+es
 
 
 
-\### 📄 More File Formats
 
 
 
-\* CSV
-
-\* XLSX
-
-\* PPTX
-
-\* Markdown
-
-\* HTML
 
 
-
-\### 🖼️ Advanced Document Understanding
-
-
-
-\* OCR
-
-\* Tables
-
-\* Charts
-
-\* Diagrams
-
-\* Images
-
-
-
-\### 🤖 AI Features
-
-
-
-\* Document comparison
-
-\* Cross-document reasoning
-
-\* Better citation tracking
-
-\* Automatic document classification
-
-\* Advanced semantic search
-
-\* Follow-up question generation
-
-\* Knowledge graphs
-
-
-
-\### 🎙️ Multimodal Features
-
-
-
-\* Audio summaries
-
-\* Text-to-speech
-
-\* Voice-based document questions
-
-
-
-\### 📤 Export
-
-
-
-\* PDF reports
-
-\* Markdown
-
-\* DOCX
-
-\* JSON
-
-\* CSV
-
-
-
-\---
-
-
-
-\# 🎯 Project Goals
+# 🎯 Project Goals
 
 
 
@@ -1157,23 +1077,18 @@ Grounded AI Conversations
 
 
 
-\---
 
 
 
-\# 👨‍💻 Author
+
+# 👨‍💻 Author
 
 
 
-\*\*Devendra Khanal\*\*
+*Devendra Khanal
 
 
 
-BSc. CSIT Student
-
-
-
-Nepal
 
 
 
@@ -1183,11 +1098,11 @@ https://github.com/devendra35
 
 
 
-\---
 
 
 
-\# 📄 License
+
+# 📄 License
 
 
 
@@ -1195,15 +1110,10 @@ This project is intended for educational and development purposes.
 
 
 
-Add an appropriate open-source license to the repository if you plan to distribute or reuse the project publicly.
 
 
 
-\---
-
-
-
-\## ⭐ If you find this project useful
+## ⭐ If you find this project useful
 
 
 
