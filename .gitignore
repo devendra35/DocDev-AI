@@ -1,0 +1,79 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+
+.venv/
+venv/
+env/
+
+# Environment Variables / Secrets
+
+.env
+.env.*
+!.env.example
+
+# Streamlit
+
+.streamlit/secrets.toml
+
+# Uploaded Documents
+
+data/uploads/*
+!data/uploads/.gitkeep
+
+# FAISS Vector Store
+
+vectorstore/*
+!vectorstore/.gitkeep
+
+# Testing
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+*.temp
+
+# Build / Distribution
+
+build/
+dist/
+*.egg-info/
+
+# Local model/cache files
+
+.cache/
+huggingface/
+transformers_cache/
+
+# Secrets / credentials
+
+*.pem
+*.key
+credentials.json
