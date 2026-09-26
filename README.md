@@ -84,35 +84,35 @@ The system:
 
 Question
 
-&#x20;  ↓
+ ↓
 
 Query Embedding
 
-&#x20;  ↓
+  ↓
 
 FAISS Vector Search
 
-&#x20;  ↓
+  ↓
 
 Relevant Document Chunks
 
-&#x20;  ↓
+  ↓
 
 Context Construction
 
-&#x20;  ↓
+ ↓
 
 Gemini
 
-&#x20;  ↓
+  ↓
 
 Grounded Answer
 
-&#x20;  ↓
+  ↓
 
 Sources
 
-```
+
 
 
 
@@ -185,7 +185,7 @@ DocDev AI is designed to reduce unsupported answers by:
 
 
 
-# 🏗️ Architecture
+#  Architecture
 
 
 
@@ -291,7 +291,7 @@ DocDev AI is designed to reduce unsupported answers by:
 
 
 
-# 🧠 Document Analysis Pipeline
+#  Document Analysis Pipeline
 
 
 
@@ -299,7 +299,7 @@ DocDev AI uses a separate document-intelligence pipeline for extracting structur
 
 
 
-```text
+
 
 Document
 
@@ -341,7 +341,7 @@ Structured JSON
 
 └─────────────────────────────┘
 
-```
+
 
 
 
@@ -353,7 +353,7 @@ Gemini's structured JSON output is used to make the analysis more reliable and e
 
 
 
-# 🛠️ Technology Stack
+#  Technology Stack
 
 
 
@@ -381,7 +381,7 @@ Gemini's structured JSON output is used to make the analysis more reliable and e
 
 
 
-\* LangChain ecosystem
+* LangChain ecosystem
 
 * Retrieval-Augmented Generation
 
@@ -395,7 +395,7 @@ Gemini's structured JSON output is used to make the analysis more reliable and e
 
 
 
-```text
+
 
 sentence-transformers/all-MiniLM-L6-v2
 
@@ -425,23 +425,22 @@ sentence-transformers/all-MiniLM-L6-v2
 
 
 
-\## Language
+## Language
 
 
 
-\* Python 3.12+
+* Python 3.12+
 
 
 
-\---
 
 
 
-# 📁 Project Structure
+
+#  Project Structure
 
 
 
-```text
 
 DocDev-AI/
 
@@ -621,7 +620,7 @@ source .venv/bin/activate
 
 
 
-# 📦 Install Dependencies
+#  Install Dependencies
 
 
 
@@ -775,7 +774,7 @@ Click:
 
 ```text
 
-🚀 Process Documents
+ Process Documents
 
 ```
 
@@ -1081,30 +1080,10 @@ Grounded AI Conversations
 
 
 
-# 👨‍💻 Author
 
 
 
-*Devendra Khanal
-
-
-
-
-
-
-GitHub:
-
-https://github.com/devendra35
-
-
-
-
-
-
-
-# 📄 License
-
-
+#License
 
 This project is intended for educational and development purposes.
 
@@ -1113,11 +1092,10 @@ This project is intended for educational and development purposes.
 
 
 
-## ⭐ If you find this project useful
 
 
 
-Give the repository a ⭐ on GitHub and feel free to explore, improve, and contribute to the project.
+
 
 
 
