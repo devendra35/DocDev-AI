@@ -74,7 +74,7 @@ def chunk_document(
     starting_id: int = 0,
 ) -> list[DocumentChunk]:
     """
-    Clean and split one loaded document.
+    Clean garna and split one loaded document.
     """
 
     cleaned_text = clean_text(document.text)
